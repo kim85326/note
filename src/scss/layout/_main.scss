@@ -102,13 +102,14 @@
     flex-wrap: wrap;
 
     .select {
-        width: 333px;
+        width: 300px;
         margin-bottom: 16px;
         margin-right: 20px;
     }
 }
 
 .select {
+    outline: none;
     border: none;
     border-radius: 7px;
     background-color: $white;
@@ -147,7 +148,7 @@
 }
 
 .note {
-    width: 333px;
+    width: 300px;
     border-radius: 7px;
     padding: 16px 16px 24px;
     background-color: $white;
