@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="./css/index.css" />
     </head>
     <body>
-        <div class="wrapper dark">
+        <div class="wrapper" id="app">
             <div class="sidebar">
                 <div class="logo">
                     MARKDOWN
@@ -37,11 +37,11 @@
                         <a href="#">垃圾桶</a>
                     </li>
                 </ul>
-                <div class="day-night-view-mode-list view-mode-list">
-                    <button class="view-mode active">
+                <div class="theme-view-mode-list view-mode-list" id="theme">
+                    <button class="view-mode active" data-mode="light">
                         <img src="./images/icon-sun.svg" alt="" />
                     </button>
-                    <button class="view-mode">
+                    <button class="view-mode" data-mode="dark">
                         <img src="./images/icon-moon.svg" alt="" />
                     </button>
                 </div>

@@ -47,10 +47,10 @@
 
 .view-mode-list {
     display: flex;
+}
 
-    &.day-night-view-mode-list {
-        margin: auto auto 120px;
-    }
+.theme-view-mode-list {
+    margin: auto auto 120px;
 }
 
 .view-mode {
@@ -75,6 +75,10 @@
 
     &:not(:last-child) {
         margin-right: 8px;
+    }
+
+    img {
+        pointer-events: none;
     }
 }
 
